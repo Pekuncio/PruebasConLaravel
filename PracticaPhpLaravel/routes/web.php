@@ -38,3 +38,5 @@ Route::get('/jugador/{id}', [JugadorController::class, 'mostrarJugador']);
 
 Route::get('/jugador/nombre/{nombre}', [JugadorController::class, 'mostrarJugadorNombre']);
 
+Route::post('/jugadorIn', [JugadorController::class, 'insertJugador']);
+

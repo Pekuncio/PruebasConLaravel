@@ -15,4 +15,6 @@ class Jugador extends Model
      * @var string
      */
     protected $table = 'jugadores';
+    protected $primaryKey = 'id';
+    protected $keyType = 'integer';
 }
